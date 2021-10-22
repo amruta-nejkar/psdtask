@@ -1,0 +1,104 @@
+
+@media screen and (max-width: 768px) {
+    .menu {
+        width: 100%;
+        height: auto;
+    }
+    .menu ul {
+        display: block;
+        max-height: 0;
+        overflow: hidden;  
+    }
+    .menu ul a {
+        text-align: left;
+        width: 100%;      
+        background: rgba(73, 71, 63, 0.6);
+        padding:20px;
+    }
+    .active {  
+      color:  rgb(24, 207, 171);
+      border-bottom:none;
+      
+    }
+    .banner{
+      padding: 150px 0 80px 0;
+    }
+    .banner_btns {
+      padding-top: 50px;
+      margin: 0 auto;
+    }
+  
+    .banner_btns a {
+      width: 120px;
+      margin: 0 10px;
+    }
+  
+    
+    .banner h1 {
+      font-size: 16px;
+      margin: 0px 0px 15px 0;
+      text-transform: uppercase;
+    }
+    .banner h1 span {
+      color: rgb(24, 207, 171);
+    }
+    
+    .banner h2 {
+      text-transform: uppercase;
+      font-size: 35px;
+      margin: 0px 0px 15px 0;
+      
+    }
+    .banner h3 {
+      font-size: 16px;
+      margin: 0px;
+      font-weight: 300;
+      text-transform: capitalize;
+      color:  rgb(184, 184, 184);
+    }
+    .boxes{
+      display: block; 
+      width: 100%;
+    }
+    .boxes div{
+      display: block;
+      width: 100%;
+      padding: 50px 0;
+    }
+    .menu-icon {
+        width: 100px;
+        height: inherit;
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        line-height: 60px;
+    }
+    #menuToggle:checked ~ ul {
+        max-height: 350px;
+       
+    }
+    .menu-icon i {
+        font-size: 1.7em;
+    }
+  
+    .section_icons{
+      width: 100%;
+      padding: 30px 0;
+       
+    }
+    .title-icons{
+      margin: 30px
+    }
+    
+    .rowcontent{
+      display: block; 
+      width: 100%;
+    }
+    .rowcontent .text1{
+      display: block; 
+      width: 60%; 
+      padding: 50px 70px; 
+      margin: 0;
+    }
+  }
