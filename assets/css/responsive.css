@@ -101,4 +101,51 @@
       padding: 50px 70px; 
       margin: 0;
     }
+    .about_img img{
+      display: none;
+    }
+    .alllist{
+      display: block;
+    }
+    .list2{
+      margin-left: 217px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    .galary{
+      display: block;
+      width: 140%;
+    }
+    .list_one{
+      display: flex;
+      flex-wrap: wrap;
+      padding-left: 137px;
+
+    }
+    .para_img{
+      display: none;
+    }
+    .banner_btn{
+      padding-right: 90px;
+    }
+    .map_img{
+      display: none;
+    }
+    .keep{
+      width: 100%;
+    }
+    /* .keep h2{
+      text-align: center;
+
+    } */
+    .keep img{
+      padding-left: 445;
+    }
+    .table_table{
+      padding-right: 100px;
+    }
+    .footer{
+      width: 100%;
+    }
   }
